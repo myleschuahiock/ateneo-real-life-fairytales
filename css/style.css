@@ -72,7 +72,7 @@ body {
 .content-2 {
   padding-top: 0%;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .third-row {
@@ -82,6 +82,11 @@ body {
 .heading-3 {
   padding-top: 5%;
   margin-left: -12px;
+}
+
+.content-3 {
+  font-size: 16px;
+  text-align: left;
 }
 
 .fourth-row {
@@ -122,7 +127,8 @@ body {
 
 .seventh-row {
   background-color: #222;
-  height: 400px;
+  padding-bottom:20px;
+  min-height: 400px;
 }
 
 .heading-7 {
@@ -139,7 +145,7 @@ body {
 
 .buy-ticket {
   background-color: #ddd;
-  height: 400px;
+  min-height: 400px;
 }
 
 .buy-link {
@@ -182,4 +188,39 @@ body {
   font-size: 14px;
   padding-top: 5px;
   font-family: 'Raleway';
+}
+
+/*MOBILE*/
+@media screen and (max-width:768px) {
+  .centerpiece-heading {
+    font-size:34px;
+  }
+  
+  .star-row img {
+    max-width:25px;
+    
+  }
+  
+  .rating-heading {
+    font-size:20px;
+  }
+  
+  
+  .centerpiece-tag {
+    margin-top: -15px;
+    font-size: 20px;
+  }
+  .heading-2, .heading-3, .heading-4, .heading-5 {
+    font-size:30px;
+  }
+  
+  .content-2, .content-3, .content-4, .content-5 {
+    font-size:15px;
+    text-align: left;
+    text-justify:auto ;
+  }
+  
+  .buy-button {
+    margin-left: 15%;
+  }
 }
