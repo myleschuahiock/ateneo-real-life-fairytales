@@ -8,6 +8,7 @@ body {
 .third-row,
 .fourth-row {
   background-color: black;
+  padding-bottom:20px;
 }
 
 .bold {
@@ -88,7 +89,7 @@ body {
   font-size: 16px;
   text-align: left;
 }
-
+/*4th Row*/
 .fourth-row {
   background-color: #111;
 }
@@ -100,7 +101,7 @@ body {
 .content-4 {
   padding-top: 25%;
 }
-
+/*5th Row*/
 .fifth-row {
   background-color: #222;
 }
@@ -116,7 +117,7 @@ body {
 .sixth-row {
   background-color: #333;
 }
-
+/*6th Row*/
 .heading-6 {
   padding-top: 20%;
 }
@@ -124,7 +125,7 @@ body {
 .content-6 {
   padding-top: 25%;
 }
-
+/*7th ROW*/
 .seventh-row {
   background-color: #222;
   padding-bottom:20px;
@@ -176,6 +177,7 @@ body {
   transition: background-color 0.5s;
 }
 
+/*8th ROW*/
 .eighth-row {
   background-color: #222;
   text-align: center;
@@ -211,11 +213,11 @@ body {
     font-size: 20px;
   }
   .heading-2, .heading-3, .heading-4, .heading-5 {
-    font-size:30px;
+    font-size:25px;
   }
   
   .content-2, .content-3, .content-4, .content-5 {
-    font-size:15px;
+    font-size:13px;
     text-align: left;
     text-justify:auto ;
   }
