@@ -1,7 +1,7 @@
 $(document).ready(function() {
   function setHeight() {
     windowHeight = $(window).innerHeight();
-    $('.first-row, .second-row, .third-row, .fourth-row').css('height', windowHeight);    
+    $('.first-row, .second-row, .third-row, .fourth-row').css('min-height', windowHeight);    
   };
   setHeight();
   
