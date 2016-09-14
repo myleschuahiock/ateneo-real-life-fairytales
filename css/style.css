@@ -133,7 +133,7 @@ body {
 }
 
 .heading-7 {
-  padding-top: 50px;
+  padding-top: 35px;
 }
 
 .seventh-row p {
@@ -141,7 +141,6 @@ body {
 }
 
 .content-7 {
-  padding-top: 25%;
 }
 
 .buy-ticket {
@@ -207,7 +206,6 @@ body {
     font-size:20px;
   }
   
-  
   .centerpiece-tag {
     margin-top: -15px;
     font-size: 20px;
@@ -217,12 +215,62 @@ body {
   }
   
   .content-2, .content-3, .content-4, .content-5 {
-    font-size:13px;
+    font-size:11px;
     text-align: left;
     text-justify:auto ;
   }
   
   .buy-button {
-    margin-left: 15%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width:570px) {
+  .centerpiece-heading {
+    font-size:25px;
+  }
+  
+  .centerpiece-tag {
+    font-size:16px;
+  }
+  
+  .star-row img {
+    max-width:12px;
+    padding:0;
+    margin:0;
+    
+  }
+  
+  .rating-heading {
+    font-size:14px;
+  }
+  
+  .rating-content {
+    font-size:12px;
+  }
+  
+/*
+  .second-row, .third-row, .fourth-row, .fifth-row, .sixth-row, .seventh-row, .eighth-row {
+    padding-bottom:200px;
+  }
+*/
+  .heading-2, .heading-3, .heading-4, .heading-5, .heading-7 {
+    font-size:22px;
+  }
+  
+  .content-2, .content-3, .content-4, .content-5, .content-7 {
+    font-size:10px;
+    text-align: left;
+    text-justify:auto;
+  }
+  .heading-4 {
+    font-size:18px;
+  }
+  .content-3 {
+    font-size:9px;
+  }
+  
+  .buy-button {
+    margin-left: 0;
   }
 }
