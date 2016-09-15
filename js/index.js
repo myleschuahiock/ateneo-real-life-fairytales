@@ -18,6 +18,7 @@ $(document).ready(function() {
       $('.navbar').removeClass('navbar-fixed');
     }
   });
+  $('body').hide().fadeIn(5000);
 });
 
 $(function() {

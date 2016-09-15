@@ -153,13 +153,24 @@ body {
   min-height: 400px;
 }
 
-.buy-link {
+.buy-link, .buy-link:visited {
   text-decoration: none;
   color: #222;
   font-weight:500;
 }
 
 .buy-link:hover {
+  text-decoration: none;
+  color: #222;
+}
+
+.buy-link:hover .buy-button {
+  background-color:#000;
+  transition: color 1s;
+  transition: background-color 0.5s;
+}
+
+.buy-link:hover div {
   color: #FFF;
   text-decoration: none;
 }
