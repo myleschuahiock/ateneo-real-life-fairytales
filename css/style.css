@@ -4,10 +4,8 @@ html {
   overflow-x: hidden;
 }
 
-.fadeInBlock {
-    opacity:0;
-}
 body {
+  display:none;
   font-family: 'Playfair Display';
   overflow-x: hidden;
   color: #EEE;
