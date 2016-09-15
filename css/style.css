@@ -140,10 +140,10 @@ body {
 
 .second-row {
   background: url(../assets/1-Intro.jpg) no-repeat center center fixed;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  background-size: 100% auto;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  -o-background-size: auto 100%;
+  background-size: auto 100%;
   padding-top: 5%;
 }
 
@@ -158,10 +158,10 @@ body {
 
 .third-row {
   background: url(../assets/2-HappyPills.jpg) no-repeat center center fixed;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  background-size: 100% auto;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  -o-background-size: auto 100%;
+  background-size: auto 100%;
 }
 
 .heading-3 {
@@ -179,10 +179,10 @@ body {
 
 .fourth-row {
   background: url(../assets/3-TheSandman.jpg) no-repeat center center fixed;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  background-size: 100% auto;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  -o-background-size: auto 100%;
+  background-size: auto 100%;
 }
 
 .heading-4 {
@@ -196,10 +196,10 @@ body {
 
 .fifth-row {
   background: url(../assets/4-MasterCleanse.jpg) no-repeat center center fixed;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  background-size: 100% auto;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  -o-background-size: auto 100%;
+  background-size: auto 100%;
 }
 
 .heading-5 {
@@ -214,10 +214,10 @@ body {
 
 .sixth-row {
   background: url(../assets/5-Terminal.jpg) no-repeat center center fixed;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  background-size: 100% auto;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  -o-background-size: auto 100%;
+  background-size: auto 100%;
 }
 
 .heading-6 {
@@ -233,10 +233,10 @@ body {
 
 .mirrors-row {
   background: url(../assets/6-Mirrors.jpg) no-repeat center center fixed;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  background-size: 100% auto;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  -o-background-size: auto 100%;
+  background-size: auto 100%;
 }
 
 .heading-mirrors {
@@ -251,10 +251,10 @@ body {
 
 .onboard-row {
   background: url(../assets/7-Onboard.jpg) no-repeat center center fixed;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  background-size: 100% auto;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  -o-background-size: auto 100%;
+  background-size: auto 100%;
 }
 
 .heading-onboard {
@@ -271,10 +271,10 @@ body {
 .group-row {
   text-align:center;
   background: url(../assets/8-Group.jpg) no-repeat center center fixed;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  background-size: 100% auto;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  -o-background-size: auto 100%;
+  background-size: auto 100%;
 }
 
 /*7th ROW - Reserve Tickets*/
