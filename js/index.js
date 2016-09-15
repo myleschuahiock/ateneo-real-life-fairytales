@@ -2,7 +2,7 @@ $(document).ready(function() {
   
   function setHeight() {
     windowHeight = $(window).innerHeight();
-    $('.first-row, .second-row, .third-row, .fourth-row').css('min-height', windowHeight);    
+    $('.first-row, .second-row, .third-row, .fourth-row, .fifth-row, .sixth-row, .mirrors-row, .onboard-row, .group-row, .first-row img').css('min-height', windowHeight);    
   };
   setHeight();
   
@@ -20,10 +20,12 @@ $(document).ready(function() {
     }
   });
   $('body').hide();
-  $('body').fadeIn(3000);
+  $('body').fadeIn(4000);
   
-  $('.centerpiece-heading, .centerpiece-tag').hide();
-  $('.centerpiece-heading, .centerpiece-tag').fadeIn(5000);
+  $('.centerpiece-tag, .loop-img').hide();
+  $('.centerpiece-tag').fadeIn(5000);
+  
+  $('.loop-img').delay(2000).fadeIn(4000);
 });
 
 $(function() {

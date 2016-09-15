@@ -1,11 +1,11 @@
 html {
-  background-color:black;
+  background-color: black;
   overflow-y: scroll;
   overflow-x: hidden;
 }
 
 body {
-  display:none;
+  display: none;
   font-family: 'Playfair Display';
   overflow-x: hidden;
   color: #EEE;
@@ -16,7 +16,7 @@ body {
 .third-row,
 .fourth-row {
   background-color: black;
-  padding-bottom:20px;
+  padding-bottom: 20px;
 }
 
 .bold {
@@ -32,7 +32,8 @@ body {
   text-justify: inter-word;
 }
 
-.centerpiece-heading, .centerpiece-tag {
+.centerpiece-heading,
+.centerpiece-tag {
   font-size: 30px;
   width: 200px;
   height: 500px;
@@ -42,6 +43,7 @@ body {
   left: 50%;
   margin-left: -100px;
   margin-top: -100px;
+  z-index:2;
 }
 
 .centerpiece-tag {
@@ -50,13 +52,71 @@ body {
   margin-top: -25px;
 }
 
+
+.first-row {
+  overflow:hidden;
+  position:relative;
+/*  z-index:0;*/
+}
+.loop-img {
+  position:absolute;
+  margin:0 auto;
+  top: 50%;
+  left: 50%;
+  margin-left: -720px;
+  margin-top: -700px;
+  opacity:0.4;
+}
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.loop-img {
+  -webkit-animation: rotating 50s linear infinite;
+  -moz-animation: rotating 50s linear infinite;
+  -ms-animation: rotating 50s linear infinite;
+  -o-animation: rotating 50s linear infinite;
+  animation: rotating 50s linear infinite;
+}
+
+
 /*STAR ROW*/
+
 .star-row {
   min-height: 200px;
   padding: 20px 0 0 0;
   background-color: #000;
   text-align: center;
-  margin-top:-200px
+  margin-top: -200px
 }
 
 .star-row img {
@@ -75,9 +135,16 @@ body {
   font-weight: 300;
 }
 
+
+/*SECOND ROW*/
+
 .second-row {
-  background-color: #111;
-  padding-top: 10%;
+  background: url(../assets/1-Intro.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 5%;
 }
 
 .content-2 {
@@ -86,12 +153,19 @@ body {
   font-size: 16px;
 }
 
+
+/*THIRD ROW - Happy Pills*/
+
 .third-row {
-  background-color: #222;
+  background: url(../assets/2-HappyPills.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .heading-3 {
-  padding-top: 5%;
+  padding-top: 40%;
   margin-left: -12px;
 }
 
@@ -99,46 +173,115 @@ body {
   font-size: 16px;
   text-align: left;
 }
-/*4th Row*/
+
+
+/*4th Row - The Sandman*/
+
 .fourth-row {
-  background-color: #111;
+  background: url(../assets/3-TheSandman.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .heading-4 {
-  padding-top: 20%;
+  padding-top: 10%;
 }
 
-.content-4 {
-  padding-top: 25%;
-}
-/*5th Row - Blank*/
+.content-4 {}
+
+
+/*5th Row - Master Cleanse*/
+
 .fifth-row {
-  background-color: #222;
+  background: url(../assets/4-MasterCleanse.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .heading-5 {
-  padding-top: 20%;
+  padding-top: 7%;
 }
 
 .content-5 {
-  padding-top: 25%;
+  padding-top: 10px;
 }
 
+/*6th Row - Terminal*/
+
 .sixth-row {
-  background-color: #333;
+  background: url(../assets/5-Terminal.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-/*6th Row - Blank*/
+
 .heading-6 {
-  padding-top: 20%;
+  padding-top: 10%;
 }
 
 .content-6 {
-  padding-top: 25%;
+  padding-top: 10px;
 }
+
+
+/*Mirrors Row - Mirrors */
+
+.mirrors-row {
+  background: url(../assets/6-Mirrors.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.heading-mirrors {
+  padding-top: 5%;
+}
+
+.content-mirrors {
+  padding-top: 10px;
+}
+
+/*Onboard Row*/
+
+.onboard-row {
+  background: url(../assets/7-Onboard.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.heading-onboard {
+  padding-top: 10%;
+}
+
+.content-onboard {
+  padding-top: 10px;
+}
+
+
+/*GROUP ROW*/
+
+.group-row {
+  text-align:center;
+  background: url(../assets/8-Group.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /*7th ROW - Reserve Tickets*/
+
 .seventh-row {
-  background-color: #222;
-  padding-bottom:20px;
+  background-color: #000;
+  padding-bottom: 20px;
   min-height: 400px;
 }
 
@@ -146,22 +289,22 @@ body {
   padding-top: 35px;
 }
 
-.content-7 {
-}
+.content-7 {}
 
 .seventh-row p {
   text-align: left;
 }
 
 .buy-ticket {
-  background-color: #222;
+  background-color: #000;
   min-height: 400px;
 }
 
-.buy-link, .buy-link:visited {
+.buy-link,
+.buy-link:visited {
   text-decoration: none;
   color: #222;
-  font-weight:500;
+  font-weight: 500;
 }
 
 .buy-link:hover {
@@ -170,7 +313,7 @@ body {
 }
 
 .buy-link:hover .buy-button {
-  background-color:#000;
+  background-color: #000;
   transition: color 1s;
   transition: background-color 0.5s;
 }
@@ -190,7 +333,7 @@ body {
   height: 100px;
   border-radius: 10px;
   background-color: #fff;
-/*  box-shadow: 0px 0px 5px #000;*/
+  /*  box-shadow: 0px 0px 5px #000;*/
 }
 
 .buy-button:hover {
@@ -199,7 +342,9 @@ body {
   transition: background-color 0.5s;
 }
 
+
 /*8th ROW*/
+
 .eighth-row {
   background-color: #222;
   text-align: center;
@@ -214,85 +359,98 @@ body {
   font-family: 'Raleway';
 }
 
+
 /*MOBILE*/
+
 @media screen and (max-width:768px) {
   .centerpiece-heading {
-    font-size:34px;
+    font-size: 34px;
   }
-  
-  .star-row img {
-    max-width:25px;
-    
-  }
-  
-  .rating-heading {
-    font-size:20px;
-  }
-  
   .centerpiece-tag {
     margin-top: -15px;
     font-size: 20px;
   }
-  .heading-2, .heading-3, .heading-4, .heading-5 {
-    font-size:25px;
+  .star-row img {
+    max-width: 25px;
+  }
+  .rating-heading {
+    font-size: 20px;
+  }
+  .heading-2,
+  .heading-3,
+  .heading-4,
+  .heading-5,
+  .heading-6,
+  .heading-mirrors,
+  .heading-onboard,
+  .heading-group,
+  {
+    font-size: 25px;
+  }
+  .heading-3 {
+    padding-top: 5%;
   }
   
-  .heading-4 {
-    font-size: 22px;
+  .heading-6 {
+    padding-top:5%;
   }
   
-  .content-2, .content-3, .content-4, .content-5 {
-    font-size:11px;
+  .content-2,
+  .content-3,
+  .content-4,
+  .content-5,
+  .content-6,
+  .content-mirrors,
+  .content-onboard,
+  .content-group,
+  {
+    font-size: 11px;
     text-align: left;
-    text-justify:auto ;
+    text-justify: auto;
   }
-  
 }
 
 @media screen and (max-width:570px) {
   .centerpiece-heading {
-    font-size:25px;
+    font-size: 25px;
   }
-  
   .centerpiece-tag {
-    font-size:16px;
+    font-size: 16px;
   }
-  
   .star-row img {
-    max-width:12px;
-    padding:0;
-    margin:0;
-    
+    max-width: 12px;
+    padding: 0;
+    margin: 0;
   }
-  
   .rating-heading {
-    font-size:14px;
+    font-size: 14px;
   }
-  
   .rating-content {
-    font-size:12px;
+    font-size: 12px;
+  }
+  .heading-2,
+  .heading-3,
+  .heading-4,
+  .heading-5,
+  .heading-6,
+  .heading-mirrors,
+  .heading-onboard,
+  .heading-group,
+  .heading-7 {
+    font-size: 25px;
   }
   
-/*
-  .second-row, .third-row, .fourth-row, .fifth-row, .sixth-row, .seventh-row, .eighth-row {
-    padding-bottom:200px;
-  }
-*/
-  .heading-2, .heading-3, .heading-4, .heading-5, .heading-7 {
-    font-size:22px;
-  }
-  
-  .content-2, .content-3, .content-4, .content-5, .content-7 {
-    font-size:10px;
+  .content-2,
+  .content-3,
+  .content-4,
+  .content-5,
+  .content-6,
+  .content-mirrors,
+  .content-onboard,
+  .content-group,
+  .content-7 {
+    font-size: 12px;
     text-align: left;
-    text-justify:auto;
-  }
-  .heading-4 {
-    font-size:15px;
-    line-height: 25px;
-    padding-top:0px;
-  }
-  .content-3 {
-    font-size:9px;
+    text-justify: auto;
   }
 }
