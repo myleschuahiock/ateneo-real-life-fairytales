@@ -348,6 +348,18 @@ body {
   transition: background-color 0.5s;
 }
 
+/*GUIDANCE ROW*/
+
+.guidance-row {
+  height:auto;
+  padding:5px 0 5px 0;
+  background-color:#111;
+}
+
+.content-guidance {
+  text-align: center;
+  font-weight: 300;
+}
 
 /*8th ROW*/
 
