@@ -277,6 +277,12 @@ body {
   background-size: cover;
 }
 
+.heading-group {
+  font-size:150px;
+  margin-top:20%;
+  font-weight:900;
+}
+
 /*7th ROW - Reserve Tickets*/
 
 .seventh-row {
