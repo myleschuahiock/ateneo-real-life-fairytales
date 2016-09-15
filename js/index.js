@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  
   function setHeight() {
     windowHeight = $(window).innerHeight();
     $('.first-row, .second-row, .third-row, .fourth-row').css('min-height', windowHeight);    
@@ -18,7 +19,11 @@ $(document).ready(function() {
       $('.navbar').removeClass('navbar-fixed');
     }
   });
-  $('body').hide().fadeIn(5000);
+  $('body').hide();
+  $('body').fadeIn(3000);
+  
+  $('.centerpiece-heading, .centerpiece-tag').hide();
+  $('.centerpiece-heading, .centerpiece-tag').fadeIn(5000);
 });
 
 $(function() {
