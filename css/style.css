@@ -398,6 +398,10 @@ body {
   font-family: 'Raleway';
 }
 
+.eighth-row a:hover {
+  color: royalblue;
+  transition: color 0.2s linear;
+}
 
 /*MOBILE*/
 
