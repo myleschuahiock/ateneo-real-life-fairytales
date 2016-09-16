@@ -338,7 +338,7 @@ body {
   background-color: #000;
   min-height: 400px;
   text-align: center;
-  padding-top: 120px;
+  padding-top: 80px;
 }
 
 .buy-button {
@@ -365,6 +365,22 @@ body {
 
 .buy-tag {
   font-size: 12px;
+}
+
+
+.social-row {
+  margin-top:10px;
+}
+.fb-share-button {
+  display:inline-block;
+  margin:0 auto;
+  margin-top:10px;
+}
+
+.twitter-logo {
+  display:inline-block;
+  margin:0 auto;
+  margin-top:-50px;
 }
 
 
