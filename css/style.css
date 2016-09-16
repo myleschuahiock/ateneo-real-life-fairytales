@@ -65,7 +65,23 @@ body {
   left: 50%;
   margin-left: -720px;
   margin-top: -700px;
-  opacity:0.4;
+  opacity:0.5;
+}
+
+.loop1 {
+  opacity:0.9;
+}
+
+.loop2 {
+  opacity:0.8;
+}
+
+.loop3 {
+  opacity: 0.7;
+}
+
+.loop4 {
+  opacity: 0.6
 }
 
 @-webkit-keyframes rotating /* Safari and Chrome */ {
