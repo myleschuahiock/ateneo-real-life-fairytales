@@ -25,7 +25,7 @@ $(document).ready(function() {
   $('.centerpiece-tag, .loop-img').hide();
   $('.centerpiece-tag').fadeIn(5000);
   
-  $('.loop-img').delay(2000).fadeIn(4000);
+  $('.loop-img').delay(2000).fadeIn(6000);
 });
 
 $(function() {
