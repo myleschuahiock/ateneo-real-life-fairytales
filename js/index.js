@@ -22,8 +22,8 @@ $(document).ready(function() {
   $('body').hide();
   $('body').fadeIn(4000);
   
-  $('.centerpiece-tag, .loop-img').hide();
-  $('.centerpiece-tag').fadeIn(5000);
+  $('.centerpiece-tag, .centerpiece-credits, .loop-img').hide();
+  $('.centerpiece-tag, .centerpiece-credits').fadeIn(5000);
   
   $('.loop-img').delay(2000).fadeIn(6000);
 });
